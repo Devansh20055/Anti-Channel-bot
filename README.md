@@ -12,7 +12,7 @@ A Telegram AntiChannel bot to ban users who using channel to send message in gro
 
 
 ### Heroku Deploy:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jigarvarma2005/Anti-Channel-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Devansh20055/Anti-Channel-bot)
 
 ### Host Locally:
 ```shell
@@ -25,21 +25,21 @@ python3 bot.py
 
 ### Follow on:
 <p align="left">
-<a href="https://github.com/Jigarvarma2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
+<a href="https://github.com/Devansh20055"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <p align="left">
-<a href="https://twitter.com/Jigarvarma2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
+<a href="https://github.com/Devansh20055"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
 </p>
 <p align="left">
-<a href="https://instagram.com/Jigarvarma2005"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
+<a href=https://github.com/Devansh20055"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 </p>
 
 #### Support Group
-- [JV Community](https://t.me/jv_community)
+- [SILENT Community](https://t.me/nalayaksupport)
 
 #### Bots Updates Channel
-- [Universal Projects](https://t.me/Universal_Projects)
+- [Universal Projects](https://t.me/team_silent_king)
 
 ### Credits
-- [Jigar Varma (me)](https://github.com/jigarvarma2005)
+- [me]https://github.com/Devansh20055)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
