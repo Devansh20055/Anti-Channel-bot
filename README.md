@@ -28,8 +28,7 @@ python3 bot.py
 <a href="https://github.com/Devansh20055"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <b> VISIT ON TELEGRAM FOR MORE :- <a href="https://t.me/team_silent_king"> @team_silent_king </a>
-#### Support Group
-- [SILENT Community](https://t.me/nalayaksupport)
+
 
 #### Bots Updates Channel
 - [Universal Projects](https://t.me/team_silent_king)
