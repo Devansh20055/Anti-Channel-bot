@@ -89,8 +89,8 @@ async def start_handler(bot, message):
     await message.reply_text(text="""Hey! Just add me to the chat, and I will block the channels that write to the chat,
 
 check /help for more.""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/Universal_Projects"),
-                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/JV_Community")]]),
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/team_silent_king"),
+                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/nalayaksupport")]]),
                              disable_web_page_preview=True)
 
 @JV_BOT.on_message(filters.command(["help"]) & filters.private)
@@ -101,9 +101,9 @@ async def help_handler(bot, message):
 /del_whitelist [channel_id] : remove channel from whitelist.
 /show_whitelist : Show all white list channels.
 
-for more help ask at @JV_Community""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/Universal_Projects"),
-                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/JV_Community")]]),
+for more help ask at @iITS_NOT_ROMEO"",
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/team_silent_king"),
+                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/nalayaksupport")]]),
                              disable_web_page_preview=True)
 
 
