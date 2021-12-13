@@ -34,5 +34,5 @@ python3 bot.py
 - [Universal Projects](https://t.me/team_silent_king)
 
 ### Credits
-- [me]https://github.com/Devansh20055)
+- [me](https://github.com/Devansh20055)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
