@@ -2,7 +2,7 @@
 A Telegram AntiChannel bot to ban users who using channel to send message in group.
 
 ### BOT LINK:
-<a href="https://t.me/JV_AntiChannelbot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Anti_channel_ban_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ### Features:
 - Automatic ban
