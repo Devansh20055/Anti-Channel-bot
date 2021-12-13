@@ -27,13 +27,7 @@ python3 bot.py
 <p align="left">
 <a href="https://github.com/Devansh20055"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
-<p align="left">
-<a href="https://github.com/Devansh20055"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-</p>
-<p align="left">
-<a href=https://github.com/Devansh20055"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
-</p>
-
+<b> VISIT ON TELEGRAM FOR MORE :- <a href="https://t.me/team_silent_king"> @team_silent_king </a>
 #### Support Group
 - [SILENT Community](https://t.me/nalayaksupport)
 
