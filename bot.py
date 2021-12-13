@@ -66,7 +66,7 @@ async def get_channel_id_from_input(bot, message):
 custom_message_filter = filters.create(lambda _, __, message: False if message.forward_from_chat or message.from_user else True)
 custom_chat_filter = filters.create(lambda _, __, message: True if message.sender_chat else False)
 
-@JV_BOT.on_message(custom_message_filter & filters.group & custom_chat_filter)
+@Anti_channel_ban_bot.on_message(custom_message_filter & filters.group & custom_chat_filter)
 async def main_handler(bot, message):
     chat_id = message.chat.id
     a_id = message.sender_chat.id
@@ -84,7 +84,7 @@ async def main_handler(bot, message):
     await message.delete()
 
 
-@JV_BOT.on_message(filters.command(["start"]) & filters.private)
+@Anti_channel_ban_bot.on_message(filters.command(["start"]) & filters.private)
 async def start_handler(bot, message):
     await message.reply_text(text="""Hey! Just add me to the chat, and I will block the channels that write to the chat,
 
@@ -93,7 +93,7 @@ check /help for more.""",
                                                                  InlineKeyboardButton("Support Group", url=f"https://t.me/nalayaksupport")]]),
                              disable_web_page_preview=True)
 
-@JV_BOT.on_message(filters.command(["help"]) & filters.private)
+@Anti_channel_ban_bot.on_message(filters.command(["help"]) & filters.private)
 async def help_handler(bot, message):
     await message.reply_text(text="""/ban [channel_id] : ban channel from sending message as channel.
 /unban [channel_id] : unban channel from sending message as channel.
@@ -108,7 +108,7 @@ for more help ask at @iITS_NOT_ROMEO"",
 
 
 
-@JV_BOT.on_callback_query()
+@Anti_channel_ban_bot.on_callback_query()
 async def cb_handler(bot, query):
     cb_data = query.data
     if cb_data.startswith("unban_"):
@@ -127,7 +127,7 @@ async def cb_handler(bot, query):
             await query.message.reply_text(f"{mention} has been unbanned by {query.from_user.mention}")
             await query.message.edit_reply_markup(reply_markup=None)
 
-@JV_BOT.on_message(filters.command(["ban"]) & filters.group)
+@Anti_channel_ban_bot.on_message(filters.command(["ban"]) & filters.group)
 async def cban_handler(bot, message):
     chat_id = message.chat.id
     user = await bot.get_chat_member(message.chat.id, message.from_user.id)
@@ -154,7 +154,7 @@ async def cban_handler(bot, message):
     except Exception as e:
         print(e)
 
-@JV_BOT.on_message(filters.command(["unban"]) & filters.group)
+@Anti_channel_ban_bot.on_message(filters.command(["unban"]) & filters.group)
 async def uncban_handler(bot, message):
     chat_id = message.chat.id
     user = await bot.get_chat_member(message.chat.id, message.from_user.id)
@@ -181,7 +181,7 @@ async def uncban_handler(bot, message):
         await message.reply_text(e)
 
 
-@JV_BOT.on_message(filters.command(["add_whitelist"]) & filters.group)
+@Anti_channel_ban_bot.on_message(filters.command(["add_whitelist"]) & filters.group)
 async def add_whitelist_handler(bot, message):
     chat_id = message.chat.id
     user = await bot.get_chat_member(chat_id, message.from_user.id)
@@ -204,7 +204,7 @@ async def add_whitelist_handler(bot, message):
         print(e)
 
 
-@JV_BOT.on_message(filters.command(["del_whitelist"]) & filters.group)
+@Anti_channel_ban_bot.on_message(filters.command(["del_whitelist"]) & filters.group)
 async def del_whitelist_handler(bot, message):
     chat_id = message.chat.id
     user = await bot.get_chat_member(chat_id, message.from_user.id)
@@ -227,7 +227,7 @@ async def del_whitelist_handler(bot, message):
         print(e)
 
 
-@JV_BOT.on_message(filters.command(["show_whitelist"]) & filters.group)
+@Anti_channel_ban_bot.on_message(filters.command(["show_whitelist"]) & filters.group)
 async def del_whitelist_handler(bot, message):
     chat_id = message.chat.id
     user = await bot.get_chat_member(chat_id, message.from_user.id)
@@ -242,4 +242,4 @@ async def del_whitelist_handler(bot, message):
         await message.reply_text("White list not found.")
 
 if __name__ == "__main__":
-    JV_BOT.run()
+   Anti_channel_ban_bot.run()
