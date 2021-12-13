@@ -16,7 +16,7 @@ A Telegram AntiChannel bot to ban users who using channel to send message in gro
 
 ### Host Locally:
 ```shell
-git clone https://github.com/Jigarvarma2005/Anti-Channel-bot
+git clone https://github.com/Devansh20055/Anti-Channel-bot
 cd Anti-Channel-bot
 pip3 install -r requirements.txt
 # Setup Configurations in config.py file!
