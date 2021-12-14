@@ -101,6 +101,9 @@ async def help_handler(bot, message):
 /del_whitelist [channel_id] : remove channel from whitelist.
 /show_whitelist : Show all white list channels.
 
+Add Me to your group now and make your group safe !!!  
+add me now :- <a herf="https://t.me/Anti_channel_ban_bot?startgroup=true" > CLICK ME TO ADD NOW </a>
+
 for more help ask at @iITS_NOT_ROMEO""",
                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/team_silent_king"),
                                                                  InlineKeyboardButton("Support Group", url=f"https://t.me/nalayaksupport")]]),
