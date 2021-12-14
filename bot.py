@@ -78,7 +78,7 @@ async def main_handler(bot, message):
         return await message.reply_text("Promote me as admin, to use me")
     if res:
         mention = f"@{message.sender_chat.username}" if message.sender_chat.username else message.chat_data.title
-        await message.reply_text(text=f"{mention} has been banned.\n\n💡 He can write only with his profile but not through other channels.",
+        await message.reply_text(text=f"{mention} has been banned.\n\n💡 He can write only with his profile but not through other channels to add me in other groups contact me in pm / dm .",
                                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Unban", callback_data=f"unban_{chat_id}_{a_id}")]]),
                               )
     await message.delete()
@@ -87,6 +87,9 @@ async def main_handler(bot, message):
 @Anti_channel_ban_bot.on_message(filters.command(["start"]) & filters.private)
 async def start_handler(bot, message):
     await message.reply_text(text="""Hey! Just add me to the chat, and I will block the channels that write to the chat,
+ADD ME NOW TO MAKE YOUR GROUP SAFE !!!!!
+LINK :- https://t.me/Anti_channel_ban_bot?startgroup=true 
+CLICK ABOVE LINK AND SELECT GROUP TO ADD !!!!
 
 check /help for more.""",
                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/team_silent_king"),
@@ -102,7 +105,7 @@ async def help_handler(bot, message):
 /show_whitelist : Show all white list channels.
 
 Add Me to your group now and make your group safe !!!  
-add me now :- <a herf="https://t.me/Anti_channel_ban_bot?startgroup=true" > CLICK ME TO ADD NOW </a>
+add me now :- https://t.me/Anti_channel_ban_bot?startgroup=true
 
 for more help ask at @iITS_NOT_ROMEO""",
                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/team_silent_king"),
