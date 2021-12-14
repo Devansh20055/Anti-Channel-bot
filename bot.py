@@ -66,7 +66,7 @@ async def get_channel_id_from_input(bot, message):
 custom_message_filter = filters.create(lambda _, __, message: False if message.forward_from_chat or message.from_user else True)
 custom_chat_filter = filters.create(lambda _, __, message: True if message.sender_chat else False)
 
-@Anti_channel_ban_bot.on_message(custom_message_filter & filters.group & custom_chat_filter)
+Anti_channel_ban_bot.on_message(custom_message_filter & filters.group & custom_chat_filter)
 async def main_handler(bot, message):
     chat_id = message.chat.id
     a_id = message.sender_chat.id
