@@ -31,7 +31,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-JV_BOT = Client("AntiChannelBot",
+Anti_channel_ban_bot = Client("AntiChannelBot",
                 api_id=Config.API_ID,
                 api_hash=Config.API_HASH,
                 bot_token=Config.BOT_TOKEN)
